@@ -5,8 +5,8 @@ import librosa # Cần cài: pip install librosa
 
 def main():
     # --- 1. CẤU HÌNH (Sửa đường dẫn của bạn vào đây) ---
-    base_dir = "/mnt/c/AILAB/MODELS/exp/dev_vi_10h"
-    tokens_path = "/mnt/c/AILAB/DATASET/GigaSpeech2/data/vi3/lang_bpe_500/tokens.txt"
+    base_dir = "/mnt/c/AILAB/DATASET/exp/vi_small"
+    tokens_path = "/mnt/c/AILAB/DATASET/GigaSpeech2/data/vi_small/features/train/bpe_lang/tokens.txt"
     wav_file = "/mnt/c/AILAB/AUDIO_TEST_STT/speech.wav" # File âm thanh để test
 
     print(f"--- Đang khởi tạo model GPU từ: {base_dir} ---")
